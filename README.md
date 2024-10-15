@@ -2,7 +2,10 @@
 
 This repository contains two ROS package contains having two main nodes: one for publishing images and another for subscribing to an image topic, processing the images by converting them from RGB to grayscale, performing contour analysis, and republishing the processed images.
 
-![Final Output](Results/dogs&cats_1.png)
+<div style="text-align: center;">
+    <img src="Results/dogs&cats_1.png" alt="Final Output" style="max-width: 100%; height: auto;">
+</div>
+
 
 ## System Specifications
 
