@@ -1,0 +1,27 @@
+[0.007s] Invoking command in '/home/dheeraj/ros-coding-challenge/build/ros88_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dheeraj/ros-coding-challenge/build/ros88_pub -- -j16 -l16
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target ros88_pub[0m
+[0.048s] [ 50%] [32mBuilding CXX object CMakeFiles/ros88_pub.dir/src/ros88_pub.cpp.o[0m
+[4.235s] [100%] [32m[1mLinking CXX executable ros88_pub[0m
+[4.630s] [100%] Built target ros88_pub
+[4.640s] Invoked command in '/home/dheeraj/ros-coding-challenge/build/ros88_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dheeraj/ros-coding-challenge/build/ros88_pub -- -j16 -l16
+[4.665s] Invoking command in '/home/dheeraj/ros-coding-challenge/build/ros88_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dheeraj/ros-coding-challenge/build/ros88_pub
+[4.671s] -- Install configuration: ""
+[4.672s] -- Execute custom install script
+[4.672s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/lib/ros88_pub/ros88_pub
+[4.672s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/launch/ros88_pub_launch.py
+[4.672s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ament_index/resource_index/package_run_dependencies/ros88_pub
+[4.672s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ament_index/resource_index/parent_prefix_path/ros88_pub
+[4.672s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/environment/ament_prefix_path.sh
+[4.672s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/environment/ament_prefix_path.dsv
+[4.673s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/environment/path.sh
+[4.673s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/environment/path.dsv
+[4.673s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/local_setup.bash
+[4.673s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/local_setup.sh
+[4.673s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/local_setup.zsh
+[4.673s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/local_setup.dsv
+[4.673s] -- Symlinking: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/package.dsv
+[4.680s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ament_index/resource_index/packages/ros88_pub
+[4.680s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/cmake/ros88_pubConfig.cmake
+[4.681s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/cmake/ros88_pubConfig-version.cmake
+[4.681s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/package.xml
+[4.682s] Invoked command in '/home/dheeraj/ros-coding-challenge/build/ros88_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dheeraj/ros-coding-challenge/build/ros88_pub

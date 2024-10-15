@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.000279] (-) JobUnselected: {'identifier': 'ros88_pub'}
+[0.000298] (ros88) JobQueued: {'identifier': 'ros88', 'dependencies': OrderedDict()}
+[0.000312] (ros88) JobStarted: {'identifier': 'ros88'}
+[0.006310] (ros88) JobProgress: {'identifier': 'ros88', 'progress': 'cmake'}
+[0.006521] (ros88) JobProgress: {'identifier': 'ros88', 'progress': 'build'}
+[0.006943] (ros88) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dheeraj/ros-coding-challenge/build/ros88', '--', '-j16', '-l16'], 'cwd': '/home/dheeraj/ros-coding-challenge/build/ros88', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dheeraj'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dheeraj'), ('OLDPWD', '/home/dheeraj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1814'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dheeraj/ros-coding-challenge/install:/home/dheeraj/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dheeraj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dheeraj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/dheeraj/apm/ardupilot/Tools/autotest:/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/dheeraj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dheeraj-Legion-5-Pro-16ITH6H:@/tmp/.ICE-unix/1781,unix/dheeraj-Legion-5-Pro-16ITH6H:/tmp/.ICE-unix/1781'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/847a27cb_8161_4117_bd12_3ff857bbf97c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dheeraj/ros-coding-challenge/install/ros88_pub:/home/dheeraj/ros-coding-challenge/install/ros88:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dheeraj/ros-coding-challenge/build/ros88'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dheeraj/ros-coding-challenge/install/ros88_pub:/home/dheeraj/ros-coding-challenge/install/ros88:/opt/ros/humble')]), 'shell': False}
+[0.033588] (ros88) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target ros88\x1b[0m\n'}
+[0.043970] (ros88) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros88.dir/src/ros88.cpp.o\x1b[0m\n'}
+[0.099875] (-) TimerEvent: {}
+[0.200270] (-) TimerEvent: {}
+[0.300636] (-) TimerEvent: {}
+[0.401060] (-) TimerEvent: {}
+[0.501406] (-) TimerEvent: {}
+[0.601768] (-) TimerEvent: {}
+[0.702131] (-) TimerEvent: {}
+[0.802481] (-) TimerEvent: {}
+[0.902924] (-) TimerEvent: {}
+[1.003262] (-) TimerEvent: {}
+[1.103627] (-) TimerEvent: {}
+[1.203906] (-) TimerEvent: {}
+[1.304197] (-) TimerEvent: {}
+[1.404566] (-) TimerEvent: {}
+[1.504853] (-) TimerEvent: {}
+[1.605233] (-) TimerEvent: {}
+[1.705524] (-) TimerEvent: {}
+[1.806006] (-) TimerEvent: {}
+[1.906281] (-) TimerEvent: {}
+[2.006629] (-) TimerEvent: {}
+[2.106900] (-) TimerEvent: {}
+[2.207225] (-) TimerEvent: {}
+[2.307562] (-) TimerEvent: {}
+[2.407924] (-) TimerEvent: {}
+[2.508209] (-) TimerEvent: {}
+[2.608493] (-) TimerEvent: {}
+[2.708821] (-) TimerEvent: {}
+[2.809128] (-) TimerEvent: {}
+[2.909524] (-) TimerEvent: {}
+[3.009821] (-) TimerEvent: {}
+[3.110159] (-) TimerEvent: {}
+[3.210446] (-) TimerEvent: {}
+[3.310740] (-) TimerEvent: {}
+[3.411193] (-) TimerEvent: {}
+[3.511488] (-) TimerEvent: {}
+[3.611785] (-) TimerEvent: {}
+[3.712118] (-) TimerEvent: {}
+[3.812421] (-) TimerEvent: {}
+[3.912752] (-) TimerEvent: {}
+[4.013059] (-) TimerEvent: {}
+[4.113367] (-) TimerEvent: {}
+[4.213735] (-) TimerEvent: {}
+[4.314167] (-) TimerEvent: {}
+[4.414579] (-) TimerEvent: {}
+[4.514930] (-) TimerEvent: {}
+[4.615341] (-) TimerEvent: {}
+[4.715795] (-) TimerEvent: {}
+[4.816143] (-) TimerEvent: {}
+[4.916520] (-) TimerEvent: {}
+[5.018199] (-) TimerEvent: {}
+[5.118572] (-) TimerEvent: {}
+[5.218844] (-) TimerEvent: {}
+[5.319120] (-) TimerEvent: {}
+[5.419514] (-) TimerEvent: {}
+[5.519999] (-) TimerEvent: {}
+[5.620347] (-) TimerEvent: {}
+[5.720621] (-) TimerEvent: {}
+[5.820956] (-) TimerEvent: {}
+[5.921332] (-) TimerEvent: {}
+[5.970322] (ros88) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ros88\x1b[0m\n'}
+[6.021505] (-) TimerEvent: {}
+[6.121846] (-) TimerEvent: {}
+[6.222122] (-) TimerEvent: {}
+[6.322469] (-) TimerEvent: {}
+[6.374871] (ros88) StdoutLine: {'line': b'[100%] Built target ros88\n'}
+[6.382002] (ros88) CommandEnded: {'returncode': 0}
+[6.397453] (ros88) JobProgress: {'identifier': 'ros88', 'progress': 'install'}
+[6.402714] (ros88) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dheeraj/ros-coding-challenge/build/ros88'], 'cwd': '/home/dheeraj/ros-coding-challenge/build/ros88', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dheeraj'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dheeraj'), ('OLDPWD', '/home/dheeraj'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1814'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/dheeraj/ros-coding-challenge/install:/home/dheeraj/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dheeraj'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dheeraj'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/dheeraj/apm/ardupilot/Tools/autotest:/opt/ros/humble/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/dheeraj/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dheeraj-Legion-5-Pro-16ITH6H:@/tmp/.ICE-unix/1781,unix/dheeraj-Legion-5-Pro-16ITH6H:/tmp/.ICE-unix/1781'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/847a27cb_8161_4117_bd12_3ff857bbf97c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dheeraj/ros-coding-challenge/install/ros88_pub:/home/dheeraj/ros-coding-challenge/install/ros88:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dheeraj/ros-coding-challenge/build/ros88'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dheeraj/ros-coding-challenge/install/ros88_pub:/home/dheeraj/ros-coding-challenge/install/ros88:/opt/ros/humble')]), 'shell': False}
+[6.407067] (ros88) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.407393] (ros88) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.407564] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/lib/ros88/ros88\n'}
+[6.407873] (ros88) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):\n'}
+[6.408016] (ros88) StderrLine: {'line': b'  Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow\n'}
+[6.408063] (ros88) StderrLine: {'line': b'  symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.\n'}
+[6.408102] (ros88) StderrLine: {'line': b'  Use the cmake_policy command to set the policy and suppress this warning.\n'}
+[6.408139] (ros88) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.408176] (ros88) StderrLine: {'line': b'  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)\n'}
+[6.408213] (ros88) StderrLine: {'line': b'  cmake_install.cmake:46 (include)\n'}
+[6.408249] (ros88) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.408285] (ros88) StderrLine: {'line': b'\x1b[0m\n'}
+[6.408320] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/__pycache__/turtle_launch.cpython-310.pyc\n'}
+[6.408399] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/build/.built_by\n'}
+[6.408436] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/build/COLCON_IGNORE\n'}
+[6.408474] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/.colcon_install_layout\n'}
+[6.408512] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/COLCON_IGNORE\n'}
+[6.408571] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/_local_setup_util_ps1.py\n'}
+[6.408632] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/_local_setup_util_sh.py\n'}
+[6.408669] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/local_setup.bash\n'}
+[6.408704] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/local_setup.ps1\n'}
+[6.408740] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/local_setup.sh\n'}
+[6.408776] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/local_setup.zsh\n'}
+[6.408812] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/setup.bash\n'}
+[6.408848] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/setup.ps1\n'}
+[6.408921] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/setup.sh\n'}
+[6.408958] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/setup.zsh\n'}
+[6.409003] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/log/COLCON_IGNORE\n'}
+[6.409040] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/log/build_2024-10-13_17-18-06/events.log\n'}
+[6.409078] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/log/build_2024-10-13_17-18-06/logger_all.log\n'}
+[6.409113] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/log/latest/events.log\n'}
+[6.409169] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/log/latest/logger_all.log\n'}
+[6.409203] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/log/latest_build/events.log\n'}
+[6.409239] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/log/latest_build/logger_all.log\n'}
+[6.409274] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/ros88_sub_launch.py\n'}
+[6.409328] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ament_index/resource_index/package_run_dependencies/ros88\n'}
+[6.409364] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ament_index/resource_index/parent_prefix_path/ros88\n'}
+[6.409413] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/environment/ament_prefix_path.sh\n'}
+[6.409463] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/environment/ament_prefix_path.dsv\n'}
+[6.409516] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/environment/path.sh\n'}
+[6.409593] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/environment/path.dsv\n'}
+[6.409687] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/local_setup.bash\n'}
+[6.409768] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/local_setup.sh\n'}
+[6.409836] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/local_setup.zsh\n'}
+[6.409905] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/local_setup.dsv\n'}
+[6.409960] (ros88) StdoutLine: {'line': b'-- Symlinking: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/package.dsv\n'}
+[6.415849] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ament_index/resource_index/packages/ros88\n'}
+[6.415932] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/cmake/ros88Config.cmake\n'}
+[6.415975] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/cmake/ros88Config-version.cmake\n'}
+[6.416043] (ros88) StdoutLine: {'line': b'-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/package.xml\n'}
+[6.417185] (ros88) CommandEnded: {'returncode': 0}
+[6.422546] (-) TimerEvent: {}
+[6.442573] (ros88) JobEnded: {'identifier': 'ros88', 'rc': 0}
+[6.443150] (-) EventReactorShutdown: {}

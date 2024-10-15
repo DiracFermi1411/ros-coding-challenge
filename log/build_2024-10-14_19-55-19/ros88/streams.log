@@ -1,0 +1,55 @@
+[0.007s] Invoking command in '/home/dheeraj/ros-coding-challenge/build/ros88': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dheeraj/ros-coding-challenge/build/ros88 -- -j16 -l16
+[0.041s] [100%] Built target ros88
+[0.050s] Invoked command in '/home/dheeraj/ros-coding-challenge/build/ros88' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dheeraj/ros-coding-challenge/build/ros88 -- -j16 -l16
+[0.069s] Invoking command in '/home/dheeraj/ros-coding-challenge/build/ros88': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dheeraj/ros-coding-challenge/build/ros88
+[0.074s] -- Install configuration: ""
+[0.074s] -- Execute custom install script
+[0.074s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/lib/ros88/ros88
+[0.074s] [33mCMake Warning (dev) at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:62 (file):
+[0.075s]   Policy CMP0009 is not set: FILE GLOB_RECURSE calls should not follow
+[0.075s]   symlinks by default.  Run "cmake --help-policy CMP0009" for policy details.
+[0.075s]   Use the cmake_policy command to set the policy and suppress this warning.
+[0.075s] Call Stack (most recent call first):
+[0.075s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+[0.075s]   cmake_install.cmake:46 (include)
+[0.075s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.075s] [0m
+[0.075s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/__pycache__/turtle_launch.cpython-310.pyc
+[0.075s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/build/.built_by
+[0.075s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/build/COLCON_IGNORE
+[0.075s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/.colcon_install_layout
+[0.075s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/COLCON_IGNORE
+[0.075s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/_local_setup_util_ps1.py
+[0.075s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/_local_setup_util_sh.py
+[0.075s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/local_setup.bash
+[0.075s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/local_setup.ps1
+[0.075s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/local_setup.sh
+[0.075s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/local_setup.zsh
+[0.075s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/setup.bash
+[0.075s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/setup.ps1
+[0.075s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/setup.sh
+[0.076s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/install/setup.zsh
+[0.076s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/log/COLCON_IGNORE
+[0.076s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/log/build_2024-10-13_17-18-06/events.log
+[0.076s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/log/build_2024-10-13_17-18-06/logger_all.log
+[0.076s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/log/latest/events.log
+[0.076s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/log/latest/logger_all.log
+[0.076s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/log/latest_build/events.log
+[0.076s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/log/latest_build/logger_all.log
+[0.076s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/launch/ros88_sub_launch.py
+[0.076s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ament_index/resource_index/package_run_dependencies/ros88
+[0.076s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ament_index/resource_index/parent_prefix_path/ros88
+[0.076s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/environment/ament_prefix_path.sh
+[0.076s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/environment/ament_prefix_path.dsv
+[0.076s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/environment/path.sh
+[0.076s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/environment/path.dsv
+[0.076s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/local_setup.bash
+[0.076s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/local_setup.sh
+[0.076s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/local_setup.zsh
+[0.077s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/local_setup.dsv
+[0.077s] -- Symlinking: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/package.dsv
+[0.082s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ament_index/resource_index/packages/ros88
+[0.082s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/cmake/ros88Config.cmake
+[0.082s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/cmake/ros88Config-version.cmake
+[0.082s] -- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88/share/ros88/package.xml
+[0.083s] Invoked command in '/home/dheeraj/ros-coding-challenge/build/ros88' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dheeraj/ros-coding-challenge/build/ros88

@@ -1,0 +1,55 @@
+[0.007s] Invoking command in '/home/dheeraj/ros-coding-challenge/build/ros88_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dheeraj/ros-coding-challenge/src/ros88_pub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dheeraj/ros-coding-challenge/install/ros88_pub
+[0.016s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.098s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.103s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.122s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.124s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.128s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.134s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.141s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.163s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.164s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.175s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.206s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.231s] -- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)
+[0.248s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.304s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.304s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dheeraj/ros-coding-challenge/src/ros88_pub/include>
+[0.305s] -- Configured cppcheck exclude dirs and/or files: 
+[0.305s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.305s] -- Added test 'lint_cmake' to check CMake code style
+[0.305s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.306s] -- Added test 'uncrustify' to check C / C++ code style
+[0.306s] -- Configured uncrustify additional arguments: 
+[0.306s] -- Added test 'xmllint' to check XML markup files
+[0.307s] -- Configuring done
+[0.319s] -- Generating done
+[0.320s] -- Build files have been written to: /home/dheeraj/ros-coding-challenge/build/ros88_pub
+[0.326s] Invoked command in '/home/dheeraj/ros-coding-challenge/build/ros88_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/dheeraj/ros-coding-challenge/src/ros88_pub -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/dheeraj/ros-coding-challenge/install/ros88_pub
+[0.327s] Invoking command in '/home/dheeraj/ros-coding-challenge/build/ros88_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dheeraj/ros-coding-challenge/build/ros88_pub -- -j16 -l16
+[0.356s] [35m[1mConsolidate compiler generated dependencies of target ros88_pub[0m
+[0.365s] [ 50%] [32mBuilding CXX object CMakeFiles/ros88_pub.dir/src/ros88_pub.cpp.o[0m
+[4.574s] [100%] [32m[1mLinking CXX executable ros88_pub[0m
+[4.956s] [100%] Built target ros88_pub
+[4.965s] Invoked command in '/home/dheeraj/ros-coding-challenge/build/ros88_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dheeraj/ros-coding-challenge/build/ros88_pub -- -j16 -l16
+[4.991s] Invoking command in '/home/dheeraj/ros-coding-challenge/build/ros88_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dheeraj/ros-coding-challenge/build/ros88_pub
+[4.996s] -- Install configuration: ""
+[4.996s] -- Execute custom install script
+[4.996s] -- Symlinking: /home/dheeraj/ros-coding-challenge/install/ros88_pub/lib/ros88_pub/ros88_pub
+[5.003s] -- Symlinking: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/launch/ros88_pub_launch.py
+[5.008s] -- Symlinking: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ament_index/resource_index/package_run_dependencies/ros88_pub
+[5.014s] -- Symlinking: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ament_index/resource_index/parent_prefix_path/ros88_pub
+[5.021s] -- Symlinking: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/environment/ament_prefix_path.sh
+[5.027s] -- Symlinking: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/environment/ament_prefix_path.dsv
+[5.033s] -- Symlinking: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/environment/path.sh
+[5.039s] -- Symlinking: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/environment/path.dsv
+[5.045s] -- Symlinking: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/local_setup.bash
+[5.051s] -- Symlinking: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/local_setup.sh
+[5.059s] -- Symlinking: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/local_setup.zsh
+[5.065s] -- Symlinking: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/local_setup.dsv
+[5.071s] -- Symlinking: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/package.dsv
+[5.076s] -- Symlinking: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ament_index/resource_index/packages/ros88_pub
+[5.082s] -- Symlinking: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/cmake/ros88_pubConfig.cmake
+[5.088s] -- Symlinking: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/cmake/ros88_pubConfig-version.cmake
+[5.094s] -- Symlinking: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/package.xml
+[5.102s] Invoked command in '/home/dheeraj/ros-coding-challenge/build/ros88_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dheeraj/ros-coding-challenge/build/ros88_pub

@@ -1,0 +1,4 @@
+Invoking command in '/home/dheeraj/ros-coding-challenge/build/ros88_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dheeraj/ros-coding-challenge/build/ros88_pub -- -j16 -l16
+Invoked command in '/home/dheeraj/ros-coding-challenge/build/ros88_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/dheeraj/ros-coding-challenge/build/ros88_pub -- -j16 -l16
+Invoking command in '/home/dheeraj/ros-coding-challenge/build/ros88_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dheeraj/ros-coding-challenge/build/ros88_pub
+Invoked command in '/home/dheeraj/ros-coding-challenge/build/ros88_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/dheeraj/ros-coding-challenge/build/ros88_pub

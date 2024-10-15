@@ -1,0 +1,22 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/ros88_pub.dir/src/ros88_pub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ros88_pub[0m
+[100%] Built target ros88_pub
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/lib/ros88_pub/ros88_pub
+-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/launch/ros88_pub_launch.py
+-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ament_index/resource_index/package_run_dependencies/ros88_pub
+-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ament_index/resource_index/parent_prefix_path/ros88_pub
+-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/environment/path.sh
+-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/environment/path.dsv
+-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/local_setup.bash
+-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/local_setup.sh
+-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/local_setup.zsh
+-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/local_setup.dsv
+-- Symlinking: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/package.dsv
+-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ament_index/resource_index/packages/ros88_pub
+-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/cmake/ros88_pubConfig.cmake
+-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/cmake/ros88_pubConfig-version.cmake
+-- Up-to-date symlink: /home/dheeraj/ros-coding-challenge/install/ros88_pub/share/ros88_pub/package.xml
