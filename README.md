@@ -2,7 +2,7 @@
 
 This repository contains two ROS package contains having two main nodes: one for publishing images and another for subscribing to an image topic, processing the images by converting them from RGB to grayscale, performing contour analysis, and republishing the processed images.
 
-![Publisher Node Example](./results/Trees_1.png) 
+![Publisher Node Example](Results/Trees_1.png) 
 
 ## System Specifications
 
