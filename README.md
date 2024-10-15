@@ -2,11 +2,7 @@
 
 This repository contains two ROS package contains having two main nodes: one for publishing images and another for subscribing to an image topic, processing the images by converting them from RGB to grayscale, performing contour analysis, and republishing the processed images.
 
-<img src="https://github.com/DiracFermi1411/ros-coding-challenge-local/Results/pre.png" align="left"
-     alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
-     
-<img src="https://github.com/DiracFermi1411/ros-coding-challenge-local/Results/post.png" align="right"
-     alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
+![Description](https://github.com/DiracFermi1411/ros-coding-challenge-local/Results/post.png)
 
 
 ## System Specifications
