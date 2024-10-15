@@ -4,9 +4,10 @@ This repository contains two ROS package contains having two main nodes: one for
 
 <div style="display: flex; align-items: center; justify-content: center;">
     <img src="Results/pre.png" alt="Pre Image" width="120" height="178" style="margin-right: 10px;">
-    <img src="path/to/arrow.png" alt="Arrow" width="30" height="30" style="margin: 0 10px;">
+    <span style="font-size: 24px;">→</span> <!-- This is a text arrow -->
     <img src="Results/post.png" alt="Post Image" width="120" height="178" style="margin-left: 10px;">
 </div>
+
 
 
 
