@@ -1,11 +1,10 @@
 # ROS Package for image processing
 
 This repository contains two ROS package contains having two main nodes: one for publishing images and another for subscribing to an image topic, processing the images by converting them from RGB to grayscale, performing contour analysis, and republishing the processed images.
-
-<div style="display: flex; align-items: center; justify-content: center;">
-    <img src="Results/pre.png" alt="Pre Image" width="120" height="178" style="margin-right: 10px;">
-    <span style="font-size: 24px;">→</span> <!-- This is a text arrow -->
-    <img src="Results/post.png" alt="Post Image" width="120" height="178" style="margin-left: 10px;">
+<div style="display: flex; align-items: center; justify-content: center; margin: 20px;">
+    <img src="Results/pre.png" alt="Pre Image" width="200" height="200" style="margin-right: 20px; border: 1px solid #ccc;">
+    <span style="font-size: 36px; margin: 0 10px;">→</span> <!-- This is a text arrow -->
+    <img src="Results/post.png" alt="Post Image" width="200" height="200" style="margin-left: 20px; border: 1px solid #ccc;">
 </div>
 
 
