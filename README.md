@@ -6,8 +6,6 @@ This repository contains two ROS package contains having two main nodes: one for
     <img src="Results/dogs&cats_1.png" alt="Final Output" style="max-width: 100%; height: auto;">
 </div>
 
-
-
 ## System Specifications
 
 ### CPU
@@ -36,6 +34,10 @@ This repository contains two ROS package contains having two main nodes: one for
 - Converts incoming RGB images to grayscale.
 - Performs contour analysis on the grayscale image.
 - Republishes the grayscale image with contours overlaid on the `/processed_image`.
+
+<div style="text-align: center;">
+    <img src="Results/rqt_graph.png" alt="Final Output" style="max-width: 100%; height: auto;">
+</div>
 
 ## Steps involved in implementation:
 
